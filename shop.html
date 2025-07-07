@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fruitables Shop</title>
+  <link rel="stylesheet" href="./shop.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- for icons -->
+</head>
+<body>
+
+  <!-- Top Header -->
+  <div class="top-header">
+    <div class="left">
+      <span><i class="fas fa-map-marker-alt"></i> 123 Street, New York</span>
+      <span><i class="fas fa-envelope"></i> Email@example.com</span>
+    </div>
+    <div class="right">
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Use</a> | 
+      <a href="#">Sales and Refunds</a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">Fruitables</div>
+    <ul class="nav-menu">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./shopdetails.html">Shop Detail</a></li>
+      <li><a href="#">Pages</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <div class="cart-icon">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-count">3</span>
+      </div>
+      <i class="fas fa-user"></i>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div class="banner">
+    <img src="./assets/mango.jpg" alt="Banner" class="banner-img">
+    <div class="overlay">
+      <h1>Shop</h1>
+      <div class="breadcrumbs">
+        <a href="#">Home</a> /
+        <a href="#">Pages</a> /
+        <span>Shop</span>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>Fresh fruits shop</h2>
+
+      <!-- Search -->
+      <div class="search-box">
+        <input type="text" placeholder="keywords">
+        <i class="fas fa-search"></i>
+      </div>
+
+      <!-- Categories -->
+      <h3>Categories</h3>
+      <ul class="category-list">
+        <li><i class="fas fa-apple-alt"></i> Apples <span>(3)</span></li>
+        <li><i class="fas fa-lemon"></i> Oranges <span>(5)</span></li>
+        <li><i class="fas fa-seedling"></i> Strawbery <span>(2)</span></li>
+        <li><i class="fas fa-lemon"></i> Banana <span>(8)</span></li>
+        <li><i class="fas fa-leaf"></i> Pumpkin <span>(5)</span></li>
+      </ul>
+
+      <!-- Price -->
+      <h3>Price</h3>
+      <input type="range" min="0" max="100" value="0">
+
+      <!-- Additional (Placeholder) -->
+      
+    </div>
+
+    <!-- Product Content -->
+    <div class="content">
+      <div class="sorting">
+        <span>Default Sorting:</span>
+        <select>
+          <option>Nothing</option>
+          <option>Price Low to High</option>
+          <option>Price High to Low</option>
+        </select>
+      </div>
+
+      <!-- Product Cards -->
+      <div class="products">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="./assets/grapes.jpg" alt="Grapes">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Grapes</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="./assets/grapes.jpg" alt="Grapes">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Grapes</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="./assets/ras.jpg" alt="Raspberries">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Raspberries</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="shop-layout">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>Fresh fruits shop</h2>
+
+      <!-- Search -->
+      <div class="search-box">
+        <input type="text" placeholder="keywords">
+        <i class="fas fa-search"></i>
+      </div>
+
+      <!-- Categories -->
+      <h3>Categories</h3>
+      <ul class="category-list">
+        <li><i class="fas fa-apple-alt"></i> Apples <span>(3)</span></li>
+        <li><i class="fas fa-lemon"></i> Oranges <span>(5)</span></li>
+        <li><i class="fas fa-seedling"></i> Strawberry <span>(2)</span></li>
+        <li><i class="fas fa-lemon"></i> Banana <span>(8)</span></li>
+        <li><i class="fas fa-leaf"></i> Pumpkin <span>(5)</span></li>
+      </ul>
+
+      <!-- Price -->
+      <h3>Price</h3>
+      <input type="range" min="0" max="100" value="0">
+
+      <!-- Additional Filters -->
+      <h3>Additional</h3>
+      <div class="filters">
+        <label><input type="radio" name="filter"> Organic</label>
+        <label><input type="radio" name="filter"> Fresh</label>
+        <label><input type="radio" name="filter"> Sales</label>
+        <label><input type="radio" name="filter"> Discount</label>
+        <label><input type="radio" name="filter"> Expired</label>
+      </div>
+
+      <!-- Featured Products -->
+      <h3>Featured products</h3>
+      <div class="featured-product">
+        <img src="https://img.freepik.com/free-photo/banana_144627-15047.jpg" alt="Big Banana">
+        <div>
+          <strong>Big Banana</strong><br>
+          <span class="price">$2.99 <del>$4.11</del></span><br>
+          <span class="stars">★★★★☆</span>
+        </div>
+      </div>
+
+      <div class="featured-product">
+        <img src="https://img.freepik.com/free-photo/strawberry_144627-13411.jpg" alt="Big Banana">
+        <div>
+          <strong>Big Banana</strong><br>
+          <span class="price">$2.99 <del>$4.11</del></span><br>
+          <span class="stars">★★★★☆</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Product Area -->
+    <div class="content">
+      <div class="products">
+        <!-- Example Product Card -->
+        <div class="product-card">
+          <img src="./assets/Apricotes.jpg" alt="Apricots">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Apricots</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="https://img.freepik.com/free-photo/banana-bunch_144627-15951.jpg" alt="Banana">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Oranges</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="./assets/grapes.jpg" alt="Oranges">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Grapes</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/banana.jpg" alt="Oranges">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Banana</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/Apples.jpg" alt="Oranges">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Apples</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="./assets/mango.jpg" alt="Oranges">
+          <span class="tag">Fruits</span>
+          <div class="info">
+            <h4>Mangoes</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+            <div class="price-add">
+              <span>$4.99 / kg</span>
+              <button><i class="fas fa-lock"></i> Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+<footer class="footer">
+  <!-- Top Email Section -->
+  <div class="footer-subscribe">
+    <h2>Fruitables</h2>
+    <p class="tagline">Fresh products</p>
+    <div class="subscribe-box">
+      <input type="email" placeholder="Your Email" />
+      <button>Subscribe Now</button>
+    </div>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+  </div>
+
+  <!-- Main Footer Content -->
+  <div class="footer-top">
+    <div class="footer-brand">
+      <h3>Why People Like us!</h3>
+      <p>Typesetting, remaining essentially unchanged. It was popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+      <button class="read-more">Read More</button>
+    </div>
+
+    <div class="footer-column">
+      <h3>Shop Info</h3>
+      <ul>
+        <li>About Us</li>
+        <li>Contact Us</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Condition</li>
+        <li>Return Policy</li>
+        <li>FAQs & Help</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Account</h3>
+      <ul>
+        <li>My Account</li>
+        <li>Shop details</li>
+        <li>Shopping Cart</li>
+        <li>Wishlist</li>
+        <li>Order History</li>
+        <li>International Orders</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p>Address: 1429 Netus Rd, NY 48247</p>
+      <p>Email: Example@gmail.com</p>
+      <p>Phone: +0123 4567 8910</p>
+      <p>Payment Accepted:</p>
+      <img src="https://img.icons8.com/color/48/visa.png" width="40" />
+      <img src="https://img.icons8.com/color/48/mastercard-logo.png" width="40" />
+      <img src="https://img.icons8.com/color/48/paypal.png" width="40" />
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <p>© <span>Your Site Name</span>, All rights reserved.</p>
+    <p>Designed By <a href="#">HTML Codex</a> Distributed By <a href="#">ThemeWagon</a></p>
+  </div>
+</footer>
+</body>
+</html>
