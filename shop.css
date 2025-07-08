@@ -600,3 +600,70 @@ body {
   color: #aef65e;
   text-decoration: none;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+  .top-header,
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .top-header .left,
+  .top-header .right,
+  .navbar .logo,
+  .navbar .nav-menu,
+  .navbar .icons {
+    margin-bottom: 10px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container,
+  .shop-layout {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .content {
+    width: 100%;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+
+  .subscribe-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .subscribe-box input,
+  .subscribe-box button {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column,
+  .footer-brand {
+    width: 100%;
+    text-align: center;
+  }
+}

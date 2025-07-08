@@ -1070,4 +1070,61 @@ background-color: var(--text-dark-grey);
   text-decoration: none;
   font-weight: bold;
 }
-  
+
+
+
+
+
+/* ✅ Mobile fit fix — no design change */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+.container, .wrapper, .row, .section, .product-grid, .products-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+  header .info-container,
+  header .nav-container,
+  .carousel-section,
+  .products-container .products-option-container,
+  .product-item-container,
+  .banner-container,
+  .footer-header,
+  .footer-bottom,
+  .testimonial-container,
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card, .product-card, .stats-card, .testimonial-box, .offer-containers {
+    width: 100% !important;
+  }
+
+  .carousel-section .details-container .title,
+  .banner-container .title {
+    font-size: 30px !important;
+  }
+
+  .carousel-section .details-container .sub-title,
+  .banner-container .sub-title {
+    font-size: 18px !important;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

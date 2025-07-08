@@ -432,3 +432,61 @@ body {
 .site-name {
   color: #31f705;
 }
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .top-header,
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .icons {
+    margin-top: 10px;
+  }
+
+  .overlay h1 {
+    font-size: 24px !important;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  .map-container {
+    width: 95% !important;
+  }
+
+  .footer-top,
+  .subscribe,
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .subscribe input,
+  .subscribe button {
+    width: 90% !important;
+  }
+
+  .footer-col {
+    width: 100% !important;
+    text-align: center;
+  }
+}
